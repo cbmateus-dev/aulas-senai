@@ -1,0 +1,50 @@
+body{
+    background-color: #00BFFF;
+    
+}
+
+h1{
+    color: #8B4513;
+    font-size: 20px;
+    
+    text-align: center;
+}
+
+td{
+    background-color: sandybrown;
+}
+
+#unico{
+    background-color: steelblue;
+}
+
+
+#h1Alt{
+    color: blue;
+    font-size: 35px;
+    
+    text-align: left;
+}
+
+h1.personalizacao{
+    color: yellow;
+    font-size: 30px;    
+    text-align: right; 
+}
+
+h1.personalizacao2{
+    line-height:25%;
+    
+
+}
+
+*{
+font-family: Verdana;
+font-size: 15px;
+
+}
+
+.table{
+    margin-right: auto;
+    margin-left: auto;
+}

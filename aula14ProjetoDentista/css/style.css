@@ -1,0 +1,96 @@
+*{
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+body{
+
+    background-color: #262526;
+    color: #fff;
+}
+
+
+.primary-bg-color{
+    background-color: #61ce70
+}
+
+.secondary-bg-color{
+    background-color: #61ce70
+}
+
+.primary-color{
+   color: #61ce70
+}
+
+#navbar .navbar-nav{
+    flex-direction: row;
+    justify-content: end;
+
+}
+#navbar .navbar-nav li{
+   margin-left: 1em;
+
+}
+
+#navbar a,
+#navbar button{
+    color: #fff;
+}
+
+
+#navbar li{
+    position: relative;
+}
+
+#navbar i{
+    font-size: 20px;
+}
+
+
+.navbar-brand{
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+
+@media(min-width: 768px){
+    .navbar-brand{
+        text-align: left;
+    }
+}
+
+#navbar-itens{
+    justify-content: space-between;
+}
+
+@media(min-width: 768px){
+    #navbar-itens{
+        min-width: 80%;
+        display: flex;
+
+    }
+}
+
+
+#dente{
+   width: 70px;
+}
+
+#textoslinks{
+    justify-content: space-between;
+}
+
+footer{
+    
+   position:absolute;
+    bottom:0;
+    width:100%;
+    
+}
+#centerbody{
+    height: 500px;
+}
+footer a{
+    color: #fff;
+}
+
+

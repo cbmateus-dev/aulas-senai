@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terceira Aula</title>
+</head>
+
+<body>
+    <table border="1">
+        <form name="formulario" method="post" action="">
+            <tr>
+                <td><label for="name">Nome:</label></td>
+                <td><input type="text" name="name" placeholder="Nome"></td>
+            </tr>
+
+            <tr>
+                <td><label for="endereco">Endereço:</label></td>
+                <td><input type="text" name="endereco" placeholder="Endereço"></td>
+            </tr>
+
+
+            <tr>
+                <td> <label for="telefone">Telefone:</label></td>
+                <td><input type="text" name="telefone" placeholder="Telefone" maxlength="12"> <br></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label>Disponibilidade de Horário</label></td>
+            </tr>
+            <tr>
+            <tr>
+                <td><input type="checkbox" name="matutino" value="matutino"></td>
+                <td>Matutino</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="vespertino" value="tarde"></td>
+                <td>Vespertino</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="noturno" value="noturno"></td>
+                <td>Noturno</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="integral" value="integral"> </td>
+                <td>Integral</td>
+            </tr>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Sexo</label></td>
+            </tr>
+            <tr>
+                <td> <input type="radio" name="sexo" value="masculino"></td>
+                <td>Masculino</td>
+            </tr>
+            <td><input type="radio" name="sexo" value="feminino"></td>
+            <td>Feminino</td>
+
+            <tr>
+                <td colspan="2"><label>Estado Civil</label></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="estadoCivil" value="Solteiro"></td>
+                <td>Solteiro</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="estadoCivil" value="Casado"></td>
+                <td>Casado</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="estadoCivil" value="Divorciado"></td>
+                <td>Divorciado</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="estadoCivil" value="Viuva"></td>
+                <td>Viuva</td>
+            </tr>
+<tr>
+    <td><select name="Estado">
+        <option value="">Selecione</option>
+        <option value="Amapá"> Amapá</option>
+        <option value="Distrito Federal"> Distrito Federal</option>
+        <option value="São Paulo"> São Paulo</option>
+        <option value="Rio de Janeiro"> Rio de Janeiro</option>
+    </select></td>
+</tr>
+            <tr>
+                <td><input type="submit" name="enviar" value="Enviar"></td>
+                <td> <input type="reset" name="resetar" value="Limpar"></td>
+            </tr>
+        </form>
+    </table>
+
+</body>
+
+</html>

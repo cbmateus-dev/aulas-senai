@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Login</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="row" id="header">
+            <div id="container-logo">
+                <img src="./img//icone.png" id="logo">
+                <h1>Futebol Online</h1>
+            </div>
+            <p>Campeonatos de Futebol</p>
+        </header>
+        <nav id="navbar" class="container">
+
+            <div class="row justify-content-center">
+                <a href="index.html">Inicio</a>
+                <a href="campeonatos.html">Campeonatos</a>
+                <a href="jogadores.html">Jogadores</a>
+                <a href="contato.html">Contato</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Fim Cabeçalho -->
+
+    <div class="row">
+        <div class="container-fluid col-12 col-md-6">
+
+            <div class="row-gx-4">
+                <div class="col-4 md-6">
+                    <label for="campeonatos" class="form-label">Artilharia</label>
+                    <select type="select" name="campeonatos" id="campeonatosSeletor" class="form-select"
+                        onChange="update()">
+
+                        <option value="./img/blank.jpg"> Selecione o Campeonato</option>
+                        <option value="./img/artcarioca.jpg">Campeonato Carioca</option>
+                        <option value="./img/artpaulista.jpg">Campeonato Paulista</option>
+                        <option value="./img/artgaucho.jpg">Campeonato Gaucho</option>
+                        <option value="./img/artmineiro.jpg">Campeonato Mineiro</option>
+
+                    </select>
+                    <div class="mt-lg-5"></div>
+
+                    <img id="classcarioca">
+                    <script type="text/javascript">
+                        function update() {
+                            var select = document.getElementById('campeonatosSeletor');
+                            var option = select.options[select.selectedIndex];
+
+                            document.querySelector('#classcarioca').setAttribute('src', select.value);
+
+                        }
+
+                        update();
+                    </script>
+
+                </div>
+            </div>
+            <div class="mt-lg-5"></div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="container">
+        <p>Redes Sociais</p>
+        <div class="row justify-content-center" id="rede-social">
+            <div class="col-1">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+            </div>
+            <div class="col-1">
+                <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+            <div class="col-1">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+            </div>
+        </div>
+        <p>© Copyright </p>
+    </footer>
+</body>
+
+</html>
